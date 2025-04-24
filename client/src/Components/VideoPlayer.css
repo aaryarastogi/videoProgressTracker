@@ -1,0 +1,35 @@
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;     
+    padding: 0 0px;   
+    box-sizing: border-box;
+}
+
+video {
+    width: 80%;
+    height: auto;
+}
+
+.video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+@media screen and (min-width: 768px) {
+video {
+    width: 40%;
+    }
+
+    .video-container {
+    flex-direction: row;
+    align-items: flex-start;
+    }
+}
+  
