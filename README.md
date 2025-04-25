@@ -52,6 +52,6 @@
 3. So, I find out the issue and solve it .
 4. In the second attempt, I finally able to deploy the fullstack website.
 
-_**Live Link**_ : 
+_**Live Link**_ : https://vidprogresstracker.netlify.app/
 
                            
